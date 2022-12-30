@@ -1,4 +1,5 @@
- body {
+/*  setting body of html */
+body {
     color: orange;
     font-family: 'Times New Roman';
     text-align: center;  
@@ -20,6 +21,7 @@
     font-size: 2.8em;
 } 
 
+/*  styling in common to all buttons*/
 .btn {
     color: #00FFDB;  
     border: solid 4px;
@@ -27,17 +29,17 @@
     padding: 16px 40px;
     letter-spacing: 2px;
   }
-
+/* changing unique bacground color to start button  */
   #start{
     border-color: #194306;
     background-color: #48633B;
   }
-  
+  /* changing unique bacground color to stop button  */
   #stop{
     border-color:rgb(246, 3, 3);
     background-color: rgb(150, 52, 52);
   }
-
+/* changing unique bacground color to reset button  */
   #reset{
     background-color: grey;
     border-color:rgb(57, 37, 37);
